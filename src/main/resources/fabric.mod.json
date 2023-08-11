@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "item_transmutation",
+	"id": "farming_enhancements",
 	"version": "${version}",
-	"name": "Item Transmutation",
-	"description": "A mod about item transmutation",
+	"name": "Farming Enhancements",
+	"description": "A mod about enhancing farming",
 	"authors": [
 		"rfmineguy"
 	],
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/item_transmutation/icon.png",
+	"icon": "assets/farming_enhancements/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"github.rfmineguy.item_transmutation.ItemTransmutation"
+			"github.rfmineguy.farming_enhancements.FarmingEnhancements"
 		],
 		"client": [
-			"github.rfmineguy.item_transmutation.ItemTransmutationClient"
+			"github.rfmineguy.farming_enhancements.FarmingEnhancementsClient"
 		],
 		"fabric-datagen": [
-			"github.rfmineguy.item_transmutation.ItemTransmutationDataGenerator"
+			"github.rfmineguy.farming_enhancements.FarmingEnhancementsDataGenerator"
 		]
 	},
 	"mixins": [
-		"item_transmutation.mixins.json"
+		"farming_enhancements.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

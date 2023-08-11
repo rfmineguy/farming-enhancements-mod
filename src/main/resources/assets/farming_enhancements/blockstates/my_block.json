@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "farming_enhancements:block/my_block"
+    }
+  }
+}

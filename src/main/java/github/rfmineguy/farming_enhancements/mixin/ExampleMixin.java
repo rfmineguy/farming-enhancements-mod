@@ -1,4 +1,4 @@
-package github.rfmineguy.item_transmutation.mixin;
+package github.rfmineguy.farming_enhancements.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

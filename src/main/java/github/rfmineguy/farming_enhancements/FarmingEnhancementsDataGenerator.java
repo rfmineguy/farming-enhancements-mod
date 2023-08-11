@@ -1,9 +1,9 @@
-package github.rfmineguy.item_transmutation;
+package github.rfmineguy.farming_enhancements;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class ItemTransmutationDataGenerator implements DataGeneratorEntrypoint {
+public class FarmingEnhancementsDataGenerator implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
